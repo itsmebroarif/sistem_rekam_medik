@@ -2,6 +2,9 @@
 
 A clean, modular, lightweight, and well-structured Hospital Information System (SIMRS) and Electronic Medical Record (RME) core application built on Laravel 13.
 
+> [!IMPORTANT]
+> **Blueprint & Architecture**: Untuk melihat diagram alur (Flowcharts), ERD database, data flow diagram (DFD), dan spesifikasi tabel database lengkap, silakan lihat dokumentasi khusus di [BLUEPRINT.md](BLUEPRINT.md).
+
 ## 🚀 Fitur Utama & Spesifikasi Teknis
 
 1. **Framework Laravel 13**:
@@ -72,8 +75,7 @@ medic_dashboard/
 ├── resources/
 │   └── views/
 │       ├── auth/
-│       │   ├── login.blade.php               # Halaman Masuk Akun
-│       │   └── register.blade.php            # Halaman Daftar Akun
+│       │   └── login.blade.php               # Halaman Masuk & Daftar Akun (Sliding Transition SPA-style)
 │       ├── layouts/
 │       │   └── app.blade.php                 # Master Layout Utama (CDN & Toggles)
 │       ├── medical-records/
